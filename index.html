@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="./scripts/scripts.js" defer></script>
+    <title>Print Hero</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar" id="navbar">
+      <div class="container flex">
+        <a href="index.html" class="logo-a flex"
+          ><img src="./images/Print-Hero.png" alt="logo" />
+          <h1 class="logo-text">Print Hero</h1></a
+        >
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container flex">
+        <div class="hero-content flex-row">
+          <div class="hero-text flex-column">
+          <h1>In need of a hero?</h1>
+          <p>
+            In a printing emergency? We got you.<br />After hours printing and
+            delivery for when you're in a jam.
+          </p>
+        </div>
+        <div>
+          <a href="services.html" class="btn btn-outline hero-btn"
+            >Learn more</a
+          >
+        </div></div>
+      </div>
+    </section>
+
+    <!-- Services -->
+
+    <section class="services" id="services">
+      <div class="container text-center align">
+        <i class="fas fa-print fa-3x text-primary"></i>
+        <h3 class="text-primary lg">Printing</h3>
+        <p class="text-secondary">Printing services, after hours, delivery</p>
+      </div>
+    </section>
+
+    <!-- contacts -->
+
+    <section class="cta text-primary flex-column" id="contact">
+      <div class="container text-center flex-column">
+        <h2 class="lg">Contact</h2>
+          <p class="lead my-1">079 315 5070</p>
+          <p class="lead my-1">
+            <a href="mailto:print@printhero.co.za">
+              print@printhero.co.za</a>
+            </p>
+        <form action="mailto:print@printhero.co.za">
+          <div class="card card-grid">
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              class="cta-email"
+              required
+            />
+            <input type="submit" value="Submit" class="btn-secondary" />
+          </div>
+        </form>
+        <div class="card">
+          <h3>Submit your email, we'll get back to you</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Enquire -->
+    <section class="cloud bg-primary my-2 p-2">
+      <div class="container flex-column">
+        <div class="text-center">
+          <h2 class="lg">Take your printing to the next level</h2>
+          <p class="lead my-1">Printing services, after hours, delivery</p>
+          <a href="services.html" class="btn btn-dark">Enquire here</a>
+        </div>
+        <div class="text-center py-2">
+          <i class="fas fa-space-shuttle fa-3x rocket"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="cloud my-2 p-2 text-primary">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="lg">Contact</h2>
+          <p class="lead my-1">079 315 5070</p>
+          <p class="lead my-1"><a href="mailto:print@printhero.co.za">print@printhero.co.za</a></p>
+          <a href="services.html" class="btn btn-dark">Enquire here</a>
+        
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer class="footer bg-dark py-5">
+      <div class="container grid grid-3">
+        <div>
+          <h1>Print Hero</h1>
+          <p>Copyright &copy; 2021</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="social">
+          <a href="#"><i class="fab fa-github fa-2x"></i></a>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
